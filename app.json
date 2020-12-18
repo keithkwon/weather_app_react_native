@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Simple weather app made with react native and expo",
+    "githubUrl": "https://github.com/keithkwon/weather_app_react_native"
   }
 }

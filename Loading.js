@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
 
 export default function Loading() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>첫번째 앱 만드는 중</Text>
+      <StatusBar barStyle="light-content"></StatusBar>
+      <Text style={styles.text}>오늘의 날씨 가져오는 중입니다!</Text>
     </View>
   );
 }

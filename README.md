@@ -4,6 +4,10 @@
 2. Use API to retrieve weather info
 3. Render screen
 
+[Check final product here!](https://expo.io/@keithkwon/projects/weather_react_native)
+
+
+
 
 
 ## Install
@@ -25,6 +29,10 @@ Expo allows you to test your app on your phone and hides all the native files.
 Handles building process. Very convenient. Can build ios apps from windows
 
 `expo start`
+
+if you `npm start` it will automatically `expo start`
+
+
 
 ### Note
 
@@ -62,3 +70,16 @@ Handles building process. Very convenient. Can build ios apps from windows
 
 1. Geolocation is supported by React Native, but expo has much more powerful featured location.
 2. `expo install expo-location`
+
+
+
+## Displaying the Temperature
+
+`npm i prop-types`
+
+
+
+## Background Gradient
+
+`expo install expo-linear-gradient`
+
